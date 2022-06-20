@@ -1,0 +1,14 @@
+启动虚拟环境
+conda activate test
+启动服务器
+python manage.py runserver
+单元测
+python manage.py test lists
+单元测试是，从程序员的角度，从内部测试应用程序。
+
+功能测
+python manage.py test funcetional_tests
+功能测试是，从用户的角度，从外部测试应用程序。 
+
+单元测+功能测
+pyhton manage.py test
